@@ -1,0 +1,22 @@
+{
+  "name": "social-music-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "cors": "^2.8.3",
+    "express": "~4.0.0",
+    "mongoose": "~3.6.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodanato/australia-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
