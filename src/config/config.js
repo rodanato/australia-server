@@ -1,5 +1,5 @@
 const corsOptions = {
-  origin: 'http://example.com',
+  origin: 'http://localhost:3000',
   optionsSuccessStatus: 200
 };
 
