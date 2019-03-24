@@ -1,5 +1,5 @@
-FROM node:10-alpine
-WORKDIR /usr/app
-COPY package.json .
-RUN npm i
+FROM node:8.12.0-alpine
 COPY . .
+RUN npm i
+EXPOSE 3333
+CMD node index.js
